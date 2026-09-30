@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES2021",
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "lib": ["ES2021"],
+    "rootDir": "./BACKEND/src",
+    "outDir": "./BACKEND/dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "skipLibCheck": true,
+  },
+  "include": ["BACKEND/src/**/*.ts"],
+  "exclude": ["node_modules", "BACKEND/dist"]
+}
